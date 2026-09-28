@@ -1,0 +1,39 @@
+{
+  "claims": [
+    {
+      "id": "C1",
+      "label": "工作地点",
+      "field": "location",
+      "text": "The role is located at Hong Kong Science Park.",
+      "anchors": ["Hong Kong Science Park"]
+    },
+    {
+      "id": "C2",
+      "label": "每周最低工作时长",
+      "field": "min_hours",
+      "text": "The internship requires at least 40 hours per week.",
+      "anchors": ["hours per week"]
+    },
+    {
+      "id": "C3",
+      "label": "Python 技能要求",
+      "field": "skill",
+      "text": "Python is part of the technical focus.",
+      "anchors": ["Python"]
+    },
+    {
+      "id": "C4",
+      "label": "申请截止日期",
+      "field": "deadline",
+      "text": "Applications close on October 15, 2026.",
+      "anchors": ["Applications", "close"]
+    },
+    {
+      "id": "C5",
+      "label": "月薪",
+      "field": "salary",
+      "text": "The monthly salary is HKD 20000.",
+      "anchors": ["salary", "HKD"]
+    }
+  ]
+}

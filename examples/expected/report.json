@@ -1,0 +1,178 @@
+{
+  "changes": [
+    {
+      "source_id": "job-posting.md",
+      "status": "modified",
+      "old_sha256": "1365f5389733148f6455ab2192acf28caf106ff3a8bec2763dc8a748d4a38f9f",
+      "new_sha256": "0ad050e160979c8db7d1d343889d08ea62350dd7ab46dd9587d441a395beedc8",
+      "added_passages": [
+        "The internship lasts one to three consecutive months and now requires part-time availability of not less than 20 hours per week.",
+        "Applications now close on October 1, 2026."
+      ],
+      "removed_passages": [
+        "The internship lasts one to three consecutive months and requires full-time availability of not less than 40 hours per week.",
+        "Applications close on October 15, 2026."
+      ],
+      "changed_current_passage_ids": [
+        "job-posting.md::h0c2e5d716834-01",
+        "job-posting.md::h770f549ae617-01"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "claim_id": "C1",
+      "label": "工作地点",
+      "claim": "The role is located at Hong Kong Science Park.",
+      "field": "location",
+      "status": "unchanged",
+      "status_label": "未变化",
+      "previous_value": "Hong Kong Science Park",
+      "current_value": "Hong Kong Science Park",
+      "change_summary": "工作地点未变化，当前仍为 Hong Kong Science Park。",
+      "impact": "原有判断仍可继续使用。",
+      "recommended_action": "投递前打开最新岗位原文做最终确认。",
+      "current_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::h3be3c0e8b808-01",
+        "quote": "The position is based on-site at Hong Kong Science Park.",
+        "score": 0.6957
+      },
+      "previous_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::h3be3c0e8b808-01",
+        "quote": "The position is based on-site at Hong Kong Science Park.",
+        "score": 0.6957
+      }
+    },
+    {
+      "claim_id": "C2",
+      "label": "每周最低工作时长",
+      "claim": "The internship requires at least 40 hours per week.",
+      "field": "min_hours",
+      "status": "changed",
+      "status_label": "已变化",
+      "previous_value": "40 小时/周",
+      "current_value": "20 小时/周",
+      "change_summary": "每周最低工作时长已由 40 小时/周 变为 20 小时/周。",
+      "impact": "工作投入要求改变，可能影响课程、签证或时间安排判断。",
+      "recommended_action": "重新评估可投入时间，并更新岗位记录。",
+      "current_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::h0c2e5d716834-01",
+        "quote": "The internship lasts one to three consecutive months and now requires part-time availability of not less than 20 hours per week.",
+        "score": 0.6106
+      },
+      "previous_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::h8a5f192a200e-01",
+        "quote": "The internship lasts one to three consecutive months and requires full-time availability of not less than 40 hours per week.",
+        "score": 0.6837
+      }
+    },
+    {
+      "claim_id": "C3",
+      "label": "Python 技能要求",
+      "claim": "Python is part of the technical focus.",
+      "field": "skill",
+      "status": "unchanged",
+      "status_label": "未变化",
+      "previous_value": "Python",
+      "current_value": "Python",
+      "change_summary": "Python 技能要求未变化，当前仍为 Python。",
+      "impact": "原有判断仍可继续使用。",
+      "recommended_action": "投递前打开最新岗位原文做最终确认。",
+      "current_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::h068c881a542b-01",
+        "quote": "The technical focus includes Python, API integration, structured JSON communication, function calling, state machines, and evaluation of AI-agent behaviour.",
+        "score": 0.4929
+      },
+      "previous_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::h068c881a542b-01",
+        "quote": "The technical focus includes Python, API integration, structured JSON communication, function calling, state machines, and evaluation of AI-agent behaviour.",
+        "score": 0.4929
+      }
+    },
+    {
+      "claim_id": "C4",
+      "label": "申请截止日期",
+      "claim": "Applications close on October 15, 2026.",
+      "field": "deadline",
+      "status": "changed",
+      "status_label": "已变化",
+      "previous_value": "2026-10-15",
+      "current_value": "2026-10-01",
+      "change_summary": "申请截止日期由 2026-10-15 提前至 2026-10-01，提前了 14 天。",
+      "impact": "申请时间窗口已经改变，原计划可能导致错过截止日期。",
+      "recommended_action": "立即按新日期调整投递优先级和准备计划。",
+      "current_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::h770f549ae617-01",
+        "quote": "Applications now close on October 1, 2026.",
+        "score": 0.8151
+      },
+      "previous_evidence": {
+        "source_id": "job-posting.md",
+        "passage_id": "job-posting.md::he764c0d1455d-01",
+        "quote": "Applications close on October 15, 2026.",
+        "score": 0.9691
+      }
+    },
+    {
+      "claim_id": "C5",
+      "label": "月薪",
+      "claim": "The monthly salary is HKD 20000.",
+      "field": "salary",
+      "status": "no_evidence",
+      "status_label": "未找到证据",
+      "previous_value": null,
+      "current_value": null,
+      "change_summary": "新旧岗位信息中均未找到可证明“The monthly salary is HKD 20000.”的证据。",
+      "impact": "该说法不能作为求职决策依据，但不代表它一定为假。",
+      "recommended_action": "不要写入申请材料；查看原岗位页或向招聘方确认。",
+      "current_evidence": null,
+      "previous_evidence": null
+    }
+  ],
+  "limits": {
+    "source_limit": 10,
+    "claim_limit": 25,
+    "llm_calls": 0,
+    "network_calls": 0,
+    "alignment_threshold": 0.22
+  },
+  "trace": [
+    {
+      "from": "created",
+      "to": "validating_inputs",
+      "detail": "Validate the threshold, source paths and claim schema."
+    },
+    {
+      "from": "validating_inputs",
+      "to": "snapshotting_sources",
+      "detail": "Create local content-addressed source snapshots."
+    },
+    {
+      "from": "snapshotting_sources",
+      "to": "detecting_changes",
+      "detail": "Compare source hashes and paragraph-level content."
+    },
+    {
+      "from": "detecting_changes",
+      "to": "aligning_evidence",
+      "detail": "Align each claim to current and previous exact passages."
+    },
+    {
+      "from": "aligning_evidence",
+      "to": "ready_to_report",
+      "detail": "Analysis is complete and bounded outputs are ready."
+    },
+    {
+      "from": "ready_to_report",
+      "to": "done",
+      "detail": "Return the auditable analysis result."
+    }
+  ]
+}
